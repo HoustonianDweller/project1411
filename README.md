@@ -19,4 +19,4 @@ git commit -m "[commit message]" : Commit changes locally. 'commit message' is r
 git push : Push changes to remote repository (GitHub) (remembered branch)
 
 5.
-git pull : Update local repository to the newest commit.
+git pull : Update local repository to the newest commit.  
