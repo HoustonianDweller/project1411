@@ -119,7 +119,7 @@ def enter_classroom():
 def display_path(friend_start:int, friend_end:int=None, you_start:int=None, you_end:int=None):
     global floor_start, room_start, floor_end, room_end
     floor_start, room_start = split_floor_room(friend_start)
-    floor_end, room_end = split_floor_room(friend_end)
+    floor_end, room_end = split_floor_room(friend_end) # if friend_end else (floor_start)
 
     if floor_start == floor_end: 
         t.bgpic('floors_1.png') 
